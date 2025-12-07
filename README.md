@@ -42,7 +42,7 @@ A modern web application for placing digital signatures, text, and dates on PDF 
 - **Node.js** - Runtime
 - **Express.js** - Web framework
 - **pdf-lib** - PDF manipulation
-- **MongoDB** - Database (optional)
+- **MongoDB** - Database 
 - **Crypto** - SHA-256 hashing
 
 ---
@@ -165,26 +165,21 @@ Signs a PDF with signature image and field coordinates.
 
 ## 📝 Field Types
 
-| Type | Description | Example |
-|------|-------------|---------|
-| Signature | Embedded signature image | User handwritten signature |
-| Text | Static text field | "Name: John Doe" |
-| Date | Auto-filled date | "12/7/2025" |
-| Checkbox | Checkmark indicator | ✓ |
-| Radio | Radio button | ⊙ |
-| Image | Embedded image | Company logo |
+| Type | Description |
+|------|-------------|
+| Signature | Embedded signature image |
+| Text | Static text field |
+| Date | Auto-filled date |
+| Checkbox | Checkmark indicator |
+| Radio | Radio button |
+| Image | Embedded image |
 
 ---
 
-## 🔐 Security
+##  Security
 
 - **CORS Enabled** - Controlled cross-origin requests
 - **Input Validation** - All inputs validated on backend
 - **SHA-256 Hashing** - Document integrity verification
 - **MongoDB Audit Trail** - All signing events logged
 - **HTTPS Only** - Production uses encrypted connections
-
----
-**Last Updated:** December 7, 2025
-
-**Status:** ✅ Production Ready

@@ -17,7 +17,6 @@ A modern web application for placing digital signatures, text, and dates on PDF 
 -  **Coordinate Conversion** - Accurate browser-to-PDF coordinate mapping
 -  **Security** - SHA-256 hashing for document integrity verification
 -  **Direct Download** - Signed PDFs download directly to your browser
--  **MongoDB Integration** - Optional audit trail for all signed documents
 
 ---
 

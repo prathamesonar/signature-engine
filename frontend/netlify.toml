@@ -1,4 +1,5 @@
 [build]
+  base = "frontend"
   command = "npm run build"
   publish = "dist"
 
@@ -6,3 +7,7 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[env.production]
+  [env.production.context.environment]
+    VITE_API_URL = "https://signature-backend.onrender.com"
